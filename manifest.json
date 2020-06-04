@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Refresher",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Automatically refresh a webpage for a user-defined set interval and receive an alert for any changes in the page.",
   "content_scripts": [{
     "matches": ["https://*/*"],
@@ -9,12 +9,8 @@
   }],
   "icons": {"32": "icon32.png", "64": "icon64.png"},
   "browser_action": {
-    "default_title": "Refresh.",
+    "default_title": "Use to refresh a tab automatically.",
     "default_icon": "icon32.png",
     "default_popup": "popup.html"
-  },
-  "permissions": [
-    "activeTab",
-    "tabs"
-  ]
+  }
 }
