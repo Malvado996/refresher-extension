@@ -3,7 +3,11 @@
     <title>Refresher Popup</title>
     <style>
       body {
-        width: 115px;
+        width: 200px;
+      }
+
+      #searcher {
+        width: 190px;
       }
     </style>
     <script src="jquery-3.5.1.min.js"></script>
@@ -21,7 +25,9 @@
       <label for="60s">60s</label>
     </div>
     <div id="text">
-      <input type="text" id="">
+      <h3>Text Monitor</h3>
+      <p>You will be notified if the page <em>no longer</em> displays this text:</p>
+      <input type="text" id="searcher" placeholder="Example: Sold Out | Coming Soon">
     </div>
   </body>
   <script src="main.js"></script>
